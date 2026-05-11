@@ -1,10 +1,8 @@
-public class Job {
-
-    // Member variables
-    private String _jobTitle;
-    private String _companyName;
-    private double _salary;
-    private String _location;
-    private String _jobDescription;
-
+public class Job
+{
+    public string _jobTitle;
+    public string _companyName;
+    public double _salary;
+    public string _location;
+    public string _jobDescription;
 }
