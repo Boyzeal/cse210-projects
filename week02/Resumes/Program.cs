@@ -20,8 +20,22 @@ class Program
         job2._startYear = 2027;
         job2._endYear = 2029;
 
-        // Display jobs
-        job1.Display();
-        job2.Display();
+        // Create resume
+        Resume myResume = new Resume();
+
+        myResume._name = "Atoyebi Simon";
+
+        // Add jobs to resume
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
+
+        // Display resume
+        Console.WriteLine($"Name: {myResume._name}");
+        Console.WriteLine("Jobs:");
+
+        foreach (Job job in myResume._jobs)
+        {
+            job.Display();
+        }
     }
 }
