@@ -8,4 +8,5 @@ public class Job
     public string _startYear;
     public string _endYear;
     public string _DisplayJobDetails;
+
 }

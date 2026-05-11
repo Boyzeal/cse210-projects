@@ -9,19 +9,15 @@ class Program
 
         job1._jobTitle = "Software Engineer";
         job1._companyName = "Microsoft";
-        job1._startYear = 2019;
-        job1._endYear = 2022;
+        job1._startYear = "2019";
+        job1._endYear = "2022";
 
         // Second job
         Job job2 = new Job();
 
         job2._jobTitle = "Manager";
         job2._companyName = "Apple";
-        job2._startYear = 2022;
-        job2._endYear = 2023;
-
-        // Display job details
-        job1.DisplayJobDetails();
-        job2.DisplayJobDetails();
+        job2._startYear = "2022";
+        job2._endYear = "2023";
     }
-}
+} 
