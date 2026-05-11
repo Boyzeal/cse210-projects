@@ -5,4 +5,7 @@ public class Job
     public double _salary;
     public string _location;
     public string _jobDescription;
+    public string _startYear;
+    public string _endYear;
+    public string _DisplayJobDetails;
 }
